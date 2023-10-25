@@ -1,0 +1,151 @@
+id,first,last,wam,dob,course
+1,John,Doe,85,1990-05-15,Computer Science
+2,Jane,Doe,75,1988-08-23,History
+3,Michael,Smith,92,1995-02-10,Information Technology
+4,Emily,Johnson,68,1998-11-30,Marketing
+5,William,Brown,77,1992-07-05,Computer Science
+6,Susan,Taylor,89,1989-04-20,Computer Science
+7,James,Anderson,95,1987-09-18,History
+8,Sarah,Williams,70,1993-06-25,Marketing
+9,David,Johnson,81,1997-03-12,Information Technology
+10,Rebecca,Martin,73,1991-10-08,History
+11,Brian,Thomas,88,1996-01-05,Marketing
+12,Amy,Jones,79,1986-12-15,Information Technology
+13,Mark,Davis,91,1994-08-28,History
+14,Karen,Wilson,72,1999-04-02,Computer Science
+15,Robert,Miller,84,1990-02-25,Marketing
+16,Laura,Clark,76,1988-11-18,Information Technology
+17,Paul,Taylor,87,1996-07-11,History
+18,Kevin,Anderson,69,1995-05-28,Computer Science
+19,Michelle,Smith,82,1987-03-07,Marketing
+20,Christopher,Brown,93,1998-09-20,Information Technology
+21,Andrew,Johnson,65,1994-06-17,History
+22,Nicole,Baker,78,1991-03-22,Computer Science
+23,Joshua,Evans,86,1989-10-14,Marketing
+24,Katherine,Martin,67,1993-08-02,Information Technology
+25,Thomas,Walker,90,1997-01-09,History
+26,Olivia,Anderson,74,1998-04-05,Computer Science
+27,Nathan,Wilson,83,1995-12-11,Marketing
+28,Lauren,Davis,71,1986-09-30,Information Technology
+29,William,Garcia,94,1987-05-08,History
+30,Kimberly,Brown,66,1992-02-03,Computer Science
+31,Jonathan,Clark,80,1999-07-26,Information Technology
+32,Michelle,Thomas,63,1988-11-25,Information Technology
+33,Matthew,Smith,97,1994-10-01,History
+34,Emily,Robinson,64,1996-03-14,Computer Science
+35,Daniel,Young,75,1993-04-28,Information Technology
+36,Amber,Green,89,1997-09-19,Information Technology
+37,Christopher,Johnson,61,1990-01-16,History
+38,Stephanie,Hall,98,1986-08-21,Computer Science
+39,Joseph,Wilson,62,1998-05-29,Marketing
+40,Laura,Garcia,91,1991-06-02,Information Technology
+41,Ryan,Hill,76,1995-03-21,History
+42,Amanda,Smith,70,1999-08-27,Computer Science
+43,Michael,Johnson,85,1989-07-13,Marketing
+44,Karen,Wright,68,1993-12-20,Information Technology
+45,David,Davis,72,1997-11-04,History
+46,Ashley,Williams,84,1987-02-12,Computer Science
+47,James,Harris,73,1994-09-07,Marketing
+48,Sarah,Thomas,79,1988-04-29,Information Technology
+49,Joseph,Young,71,1992-05-18,History
+50,Melissa,Evans,93,1996-10-23,Computer Science
+51,Matthew,Clark,65,1990-08-06,Marketing
+52,Emily,Harris,87,1986-03-03,Information Technology
+53,Andrew,Jones,63,1998-02-28,History
+54,Kimberly,Smith,98,1997-01-03,Computer Science
+55,Brandon,Johnson,61,1989-04-08,Marketing
+56,Nicole,Taylor,75,1995-11-10,Information Technology
+57,William,Young,88,1993-07-31,History
+58,Megan,Martin,69,1992-10-12,Computer Science
+59,James,Hill,77,1988-09-03,Marketing
+60,Lauren,Mitchell,80,1991-12-15,Information Technology
+61,Brian,Smith,86,1999-06-26,History
+62,Amanda,Miller,94,1994-05-05,Computer Science
+63,Ashley,Johnson,92,1996-08-18,Marketing
+64,Michael,Clark,83,1998-03-09,Information Technology
+65,Michelle,Martin,79,1987-04-24,History
+66,Matthew,Robinson,74,1990-11-16,Computer Science
+67,Nathan,Young,96,1989-10-28,Marketing
+68,Stephanie,Williams,82,1993-01-01,Information Technology
+69,David,Anderson,81,1995-02-06,History
+70,Susan,Thomas,91,1997-07-17,Computer Science
+71,Kevin,Brown,67,1991-06-20,Marketing
+72,Rebecca,Harris,66,1992-03-30,Information Technology
+73,James,Wilson,95,1993-12-08,History
+74,Emily,Anderson,93,1990-09-22,Computer Science
+75,Brian,Smith,68,1991-04-18,Marketing
+76,Michelle,Wilson,80,1994-05-24,Information Technology
+77,Amanda,Johnson,92,1988-08-07,History
+78,Michael,Jones,89,1995-01-12,Computer Science
+79,Kimberly,Robinson,61,1998-10-14,Marketing
+80,Joseph,Evans,78,1999-07-25,Information Technology
+81,David,Martin,74,1997-08-03,History
+82,Stephanie,Davis,97,1995-11-27,Computer Science
+83,Nicole,Smith,89,1989-02-14,Marketing
+84,William,Garcia,75,1998-03-26,Information Technology
+85,James,Hill,92,1991-09-28,History
+86,Rebecca,Harris,95,1998-06-07,Computer Science
+87,Matthew,Young,76,1993-05-29,Marketing
+88,Lauren,Smith,85,1999-12-04,Information Technology
+89,Ashley,Davis,71,1986-07-16,History
+90,Jonathan,Thomas,89,1990-08-09,Computer Science
+91,Nathan,Walker,74,1991-01-05,Marketing
+92,Megan,Evans,68,1992-02-18,Information Technology
+93,Brandon,Hall,79,1997-03-01,History
+94,Melissa,Martin,93,1988-06-21,Computer Science
+95,Katherine,Clark,81,1994-07-03,Marketing
+96,Andrew,Harris,72,1995-12-27,Information Technology
+97,Michelle,Hall,82,1998-09-10,History
+98,Joshua,Wilson,96,1987-10-31,Computer Science
+99,Amanda,Taylor,91,1996-11-23,Marketing
+100,Joseph,Smith,85,1989-03-18,Information Technology
+101,Karen,Johnson,87,1992-03-12,Computer Science
+102,Brian,Wilson,78,1997-06-28,Marketing
+103,David,Smith,79,1994-02-05,Information Technology
+104,Jennifer,Martin,84,1988-01-25,History
+105,Matthew,Taylor,83,1996-10-09,Computer Science
+106,Olivia,Clark,89,1989-12-02,Marketing
+107,Michael,Johnson,73,1993-09-07,Information Technology
+108,Rebecca,Martin,72,1991-11-23,History
+109,Amanda,Thomas,90,1987-04-02,Computer Science
+110,Susan,Wilson,89,1996-05-20,Marketing
+111,Joseph,Anderson,98,1990-06-15,Information Technology
+112,Kimberly,Clark,71,1993-08-17,History
+113,John,Young,97,1998-03-05,Computer Science
+114,Emily,Davis,91,1992-05-28,Marketing
+115,James,Smith,95,1988-11-28,Information Technology
+116,Laura,Martin,72,1996-07-01,History
+117,Robert,Johnson,80,1989-02-13,Computer Science
+118,Sophia,Moore,71,1993-04-08,Marketing
+119,Michael,Anderson,78,1992-11-16,Information Technology
+120,Olivia,Williams,94,1994-07-21,History
+121,Aiden,Smith,67,1990-03-14,Computer Science
+122,Emma,Robinson,90,1986-12-05,Marketing
+123,Liam,Johnson,76,1995-10-28,Information Technology
+124,Isabella,Brown,85,1987-08-07,History
+125,Ethan,Wilson,88,1991-07-17,Computer Science
+126,Grace,Hall,99,1989-06-26,Marketing
+127,Oliver,Williams,85,1994-03-05,Information Technology
+128,Emma,Davis,73,1998-08-22,History
+129,Liam,Clark,89,1990-01-01,Computer Science
+130,Emma,Smith,71,1995-02-06,Marketing
+131,Olivia,Evans,81,1988-08-23,Information Technology
+132,William,Young,74,1991-10-12,History
+133,James,Taylor,90,1986-07-16,Computer Science
+134,Emma,Williams,91,1992-06-19,Marketing
+135,Liam,Smith,92,1999-12-04,Information Technology
+136,Olivia,Johnson,86,1987-09-29,History
+137,Ava,Anderson,68,1993-05-21,Computer Science
+138,Ethan,Taylor,91,1989-04-20,Marketing
+139,Sophia,Martin,76,1990-08-27,Information Technology
+140,Oliver,Clark,93,1995-06-18,History
+141,Isabella,Garcia,85,1997-11-16,Computer Science
+142,Olivia,Hall,98,1992-12-23,Marketing
+143,Emma,Johnson,79,1988-07-13,Information Technology
+144,William,Walker,82,1993-06-26,History
+145,James,Smith,70,1989-05-25,Computer Science
+146,Michael,Moore,87,1991-02-22,Marketing
+147,Emma,Wilson,94,1996-01-28,Information Technology
+148,Olivia,Martin,95,1985-10-04,History
+149,Aiden,Brown,83,1986-12-17,Computer Science
+150,Sophia,Walker,91,1994-08-01,Marketing

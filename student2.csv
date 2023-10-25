@@ -1,0 +1,61 @@
+id,first,last,wam,dob,course
+101,Oliver,Smith,65,1985-04-10,Engineering
+102,Emma,Johnson,78,1988-02-15,Mathematics
+103,Liam,Davis,92,1995-09-20,Computer Science
+104,Ava,Miller,47,1992-12-05,Psychology
+105,Noah,Anderson,56,1990-08-18,History
+106,Sophia,Martin,85,1987-07-23,English Literature
+107,Logan,Taylor,60,1996-05-30,Economics
+108,Isabella,Clark,75,1991-03-11,Chemistry
+109,Ethan,Wilson,40,1998-10-02,Physics
+110,Olivia,Harris,53,1994-06-28,Sociology
+111,Mason,Martinez,70,1986-09-22,Political Science
+112,Harper,Johnson,88,1989-12-10,Statistics
+113,Michael,Williams,72,1993-02-28,Biology
+114,Emily,Davis,69,1997-07-01,Geography
+115,Benjamin,Moore,82,1990-11-14,Environmental Science
+116,Amelia,Thomas,43,1998-01-25,Anthropology
+117,William,Garcia,64,1987-04-08,Philosophy
+118,Sofia,Anderson,50,1986-06-06,Music
+119,Aiden,Taylor,95,1991-08-04,Art
+120,Grace,Wilson,55,1989-05-17,Theater
+121,James,Hernandez,47,1992-03-29,Architecture
+122,Chloe,Lopez,58,1996-09-12,Marketing
+123,Emma,Young,81,1994-02-22,Finance
+124,Mia,Baker,76,1988-11-21,Communications
+125,Liam,Smith,87,1999-10-05,Graphic Design
+126,Isabella,Johnson,66,1995-07-15,Education
+127,Mia,Taylor,93,1986-06-19,Journalism
+128,Ethan,Clark,74,1993-03-30,Linguistics
+129,Ava,Moore,68,1992-10-27,International Relations
+130,Liam,Martin,98,1987-12-03,Management
+131,Harper,Williams,79,1998-08-16,Public Relations
+132,Logan,Jones,55,1988-05-07,Advertising
+133,Mia,Martinez,45,1991-09-09,Information Technology
+134,Emma,Davis,67,1996-04-23,Human Resources
+135,Owen,Brown,33,1989-10-12,Criminal Justice
+136,Ava,Hall,50,1994-07-26,Nursing
+137,Noah,Martin,15,1990-02-05,Physical Therapy
+138,Olivia,Lopez,25,1987-01-31,Psychiatry
+139,Liam,Young,85,1988-06-26,Epidemiology
+140,Ella,Lopez,36,1989-05-13,Social Work
+141,Liam,Moore,72,1993-06-07,Public Health
+142,Oliver,Evans,96,1996-08-29,Occupational Therapy
+143,Ethan,Anderson,38,1984-03-14,Kinesiology
+144,Emma,Martin,55,1985-05-18,Optometry
+145,Noah,Morris,29,1997-02-07,Dentistry
+146,Isabella,Lopez,90,1991-12-24,Pharmacy
+147,Ava,Anderson,51,1998-11-02,Medicine
+148,Liam,Hall,39,1989-09-10,Veterinary Medicine
+149,Sophia,Williams,62,1986-07-06,Neuroscience
+150,Olivia,Wilson,78,1983-04-13,Genetics
+151,Aiden,Robinson,65,1981-10-28,Microbiology
+152,Mia,Harris,80,1984-03-21,Immunology
+153,Emma,Young,45,1992-09-18,Biochemistry
+154,Oliver,Smith,70,1994-11-12,Cell Biology
+155,Logan,Davis,36,1987-08-15,Molecular Biology
+156,Harper,Johnson,58,1993-07-17,Developmental Biology
+157,Sofia,Clark,68,1996-06-06,Plant Biology
+158,James,Martin,74,1991-05-03,Animal Biology
+159,Mia,Williams,46,1988-04-28,Ecology
+160,Emma,Taylor,61,1989-03-19,Marine Biology
