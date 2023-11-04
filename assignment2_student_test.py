@@ -50,7 +50,6 @@ def __main__():
 
 
 class TestAssignment2(unittest.TestCase):
-
     def test_is_in_range(self):
         self.assertTrue(ass2.is_in_range(8, 1, 10))
         self.assertTrue(ass2.is_in_range(1, 1, 10))
@@ -69,7 +68,6 @@ class TestAssignment2(unittest.TestCase):
         self.assertFalse(ass2.is_ascending([1, 2, 3, 4, 6, 6]))
         self.assertFalse(ass2.is_ascending([11, 3, 15, 7, 9]))
 
-
     def test_average_wam(self):
         student_data = read_data("student3.csv")
         actual_result = ass2.average_wam(student_data)
@@ -86,6 +84,22 @@ class TestAssignment2(unittest.TestCase):
         expected_result = 81.5
         self.assertAlmostEqual(expected_result, actual_result, 2)
 
+        student_data = [
+            [110, "Olivia", "Harris", 53, "1994-06-28", "Sociology"],
+            [117, "William", "Garcia", 64, "1987-04-08", "Philosophy"],
+            [130, "Liam", "Martin", 98, "1987-12-03", "Management"],
+            [138, "Olivia", "Lopez", 25, "1987-01-31", "Psychiatry"],
+            [156, "Harper", "Johnson", 58, "1993-07-17", "Developmental Biology"],
+        ]
+        actual_result = ass2.average_wam(student_data)
+        expected_result = 61.25
+        self.assertAlmostEqual(expected_result, actual_result)
+
+        student_data = []
+        actual_result = ass2.average_wam(student_data)
+        expected_result = 0.0
+        self.assertAlmostEqual(expected_result, actual_result)
+
     def test_highest_wam(self):
         student_data = read_data("student2.csv")
         actual_result = ass2.highest_wam(student_data)
@@ -100,6 +114,39 @@ class TestAssignment2(unittest.TestCase):
         student_data = []
         actual_result = ass2.highest_wam(student_data)
         expected_result = None
+        self.assertEqual(expected_result, actual_result)
+
+        student_data = [
+            [110, "Olivia", "Harris", 53, "1994-06-28", "Sociology"],
+            [117, "William", "Garcia", 64, "1987-04-08", "Philosophy"],
+            [130, "Liam", "Martin", 98, "1987-12-03", "Management"],
+            [138, "Olivia", "Lopez", 25, "1987-01-31", "Psychiatry"],
+            [156, "Harper", "Johnson", 58, "1993-07-17", "Developmental Biology"],
+        ]
+        actual_result = ass2.highest_wam(student_data)
+        expected_result = "Liam Martin"
+        self.assertEqual(expected_result, actual_result)
+
+        student_data = []
+        actual_result = ass2.highest_wam(student_data)
+        expected_result = None
+        self.assertEqual(expected_result, actual_result)
+
+        student_data = [
+            [13, "Mark", "Davis", 91, "1994-08-28", "History"],
+            [43, "Steven", "Clark", 94, "1998-03-09", "Information Technology"],
+            [19, "Michelle", "Smith", 82, "1987-03-07", "Marketing"],
+            [29, "William", "Garcia", 94, "1987-05-08", "History"],
+            [60, "Lauren", "Mitchell", 80, "1991-12-15", "Information Technology"],
+            [48, "Sarah", "Thomas", 79, "1988-04-29", "Information Technology"],
+            [53, "Andrew", "Jones", 63, "1998-02-28", "History"],
+            [128, "Emma", "Davis", 73, "1998-08-22", "History"],
+            [2, "Jane", "Doe", 75, "1988-08-23", "History"],
+            [107, "Michael", "Johnson", 73, "1993-09-07", "Information Technology"],
+        ]
+
+        actual_result = ass2.highest_wam(student_data)
+        expected_result = "Steven Clark" # the first one with highest WAM counts even though we have multiple with highest wam value = 94
         self.assertEqual(expected_result, actual_result)
 
     def test_most_popular_course(self):
@@ -209,8 +256,6 @@ class TestAssignment2(unittest.TestCase):
         student_data = []
         actual_result = ass2.convert_to_dict(student_data.copy())
         self.assertEqual(actual_result, [{}])
-
-    
 
     def test_validate_dictionary(self):
         input = {
