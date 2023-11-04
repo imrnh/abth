@@ -220,6 +220,19 @@ def add_spaces(list: list[str]):
     Args:
         list (list[str]): a list of strings  
     """
+    try:
+        for idx, ditm in enumerate(list):
+            new_str = '' #starting with an empty list.
+            for iix, citm in enumerate(ditm): #iterate the string.
+                if iix > 0:
+                    if ord(citm) >= 65 and ord(citm) <= 90: #only if character is capital and not the first character, add a whitespace before that.
+                        new_str+= ' '
+                new_str += citm
+            
+            list[idx] = new_str
+    except:
+        return list
+
     return []  # TODO Remove me to get started!
 
 
@@ -235,7 +248,7 @@ def convert_to_dict(list: list[list[str]]) -> dict:
             "last" : last,
             "wam" : wam,
             "dob" : dob,
-            "course" : course,  # The extra comma at the end is okay in Python! 
+            "course" : course,  # The extra comma at the end is okay in Python!
         },
         ...
     }
@@ -249,8 +262,25 @@ def convert_to_dict(list: list[list[str]]) -> dict:
 
     Returns:
         dict: a dictionary with the scheme described above
-    """
-    return {}  # TODO Remove me to get started!
+    """ 
+
+    
+    ol = [{}]
+    for l in list[1:]:
+        year = str(l[4].split("-")[0])
+        id = str(l[0]) + str(l[3]) + year
+        
+        dct = {
+            "first": l[1],
+            "last": l[2],
+            "wam": float(l[3]),
+            "dob": l[4],
+            "course": l[-1]
+        }
+
+        ol.append(dct)
+
+    return ol
 
 
 def validate_dictionary(data) -> bool:
@@ -282,5 +312,39 @@ def validate_dictionary(data) -> bool:
 
     Returns:
         bool: True if the passed dictionary follows the scheme specified above, False otherwise
-    """
-    return False  # TODO Remove me to get started!
+    """ 
+
+    if not isinstance(data, dict):
+        return False
+
+    for key, value in data.items():
+        if not isinstance(key, int):
+            return False
+
+        if not isinstance(value, dict):
+            return False
+
+        if not (isinstance(value.get("first_name"), str) and isinstance(value.get("last_name"), str)):
+            return False
+
+        #validating extra key
+        valid_keys = {"first_name", "last_name", "address"}
+
+        if set(value.keys()) - valid_keys:
+            return False
+
+        address = value.get("address")
+
+        if not isinstance(address, dict):
+            return False
+
+        if not (isinstance(address.get("street_number"), int) and isinstance(address.get("street_name"), str)):
+            return False
+
+        #validating extra key for address
+        address_valid_keys = {"street_number", "street_name"}
+
+        if set(address.keys()) - address_valid_keys:
+            return False
+
+    return True
